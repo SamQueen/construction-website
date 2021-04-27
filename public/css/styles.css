@@ -399,6 +399,7 @@ nav ul li a:hover {
        left: 50px; 
     } 
     
+    
     /*About Section*/
     #about {
         width: 100%;
@@ -408,6 +409,11 @@ nav ul li a:hover {
     
     .about-content p {
         margin-top: 0;
+    }
+    
+    .about-content img {
+        position: relative;
+        top: 30px;
     }
     
     
