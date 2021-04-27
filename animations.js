@@ -16,3 +16,4 @@ $('.mobile-icon').on('click', function() {
     $('nav .mobile-icon').toggleClass('move-top');
     $('nav ul').toggleClass('show-mobile-nav');
 });
+

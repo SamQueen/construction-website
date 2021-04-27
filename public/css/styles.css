@@ -343,6 +343,10 @@ nav ul li a:hover {
 
 @media only screen and (max-width: 1000px) {
     /*nav*/
+    nav {
+        position: absolute;
+    }
+    
     nav ul {
         display: none;
         position: relative;
@@ -379,7 +383,20 @@ nav ul li a:hover {
         font-size: 2em;
     }
     
+    
+    /*Title Section*/
+    .title-buttons h3 {
+        width: 200px;
+    }
+    
+    
     /*About Section*/
+    #about {
+        width: 100%;
+        padding-top: 7%;
+        padding-bottom: 20%;
+    }
+    
     .about-content p {
         margin-top: 0;
     }
@@ -392,14 +409,18 @@ nav ul li a:hover {
     
     
     /*Services Section*/
+    #services {
+        padding: 20% 15%;
+    }
+    
     .item img {
         height: 200px;
         width: 300px;
     }
     
     .item-a {
-    grid-column-start: 1;
-    grid-row-start: 1;
+        grid-column-start: 1;
+        grid-row-start: 1;
     }
 
     .item-b {
@@ -431,5 +452,13 @@ nav ul li a:hover {
     /*Contact Section*/
     #contact h2 {
         font-size: 0.7em;
+    }
+    
+    .contact-items ul {
+        width: 50%;
+    }
+    
+    .contact-items ul li {
+        margin-right: 68px;
     }
 }
