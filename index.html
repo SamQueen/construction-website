@@ -38,8 +38,8 @@
         </div>
         
         <div class="title-buttons">
-            <h3 class="title-button-one">Get Quote</h3>
-            <h3 class="title-button-two">Services</h3>
+            <h3 class="title-button-one"><a href="#quote">Get Quote</a></h3>
+            <h3 class="title-button-two"><a href="#services">Services</a></h3>
         </div>
    </section>
     
@@ -71,17 +71,31 @@
     </section>
     
     <section id="quote">
-        <h1>"Perhaps a quote or something that looks nice"</h1>
-        <div class="quote-items"> 
-            <div class="phone-icon">
-                <a class="phone" href="#"><i class="fa fa-phone"></i></a>
-            </div>
-            <div class="facebook-icon">
-                <a class="facebook" href="#"><i class="fa fa-facebook-f"></i></a>
-            </div>
-            <div class="instagram-icon">
-                <a class="instagram" href="#"><i class="fa fa-instagram"></i></a>
-            </div>
+        <h1>Get a quote</h1>
+        
+        <div class="quote-section-content">
+            <h2>Send us a message</h2>
+                
+            <form action="#" method="get">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="email">E-mail</label>
+                        <input type="text" id="user_email" name="user_email">
+                    </li>
+                    <li>
+                        <label for="msg">Message</label>
+                        <textarea name="user_msg" id="msg" cols="30" rows="10"></textarea>
+                    </li>
+                    <li>
+                        <button type="submit">SEND</button>
+                    </li>
+                </ul>
+            </form>
+            
         </div>
     </section>
     
