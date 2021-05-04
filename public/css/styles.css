@@ -5,6 +5,10 @@
     max-width: 100%;
 }
 
+img {
+    border-radius: 6px;
+}
+
 /*Fonts*/
 h1,h2,h3,h4 {
     font-family: "Montserrat", sans-serif;
@@ -38,14 +42,18 @@ nav.shrink {
     transition: 0.5s ease;
 }
 
-nav h1 {
+nav h2 {
     position: absolute;
-    left: 50px;
+    left: 250px;
     top: 50%;
     transform: translateY(-50%);
     letter-spacing: 2px;
     font-size: 2rem;
     color: #eee;
+}
+
+.business-name {
+    font-size: 25px;
 }
 
 nav img {
@@ -172,7 +180,7 @@ nav ul li a {
 .paragraph-one p {
     position: relative;
     font-size: 15px;
-    top: 50px;
+    top: 30px;
 }
 
 .paragraph-one img {
@@ -285,6 +293,9 @@ textarea {
 
 button {
     margin-left: .5em;
+    padding: 2px 5px;
+    background-color: #222;
+    color: #eee;
 }
 
 
