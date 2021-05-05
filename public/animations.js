@@ -28,3 +28,8 @@ $('nav a').on('click', function() {
 $('.phone-icon').on('click', function() {
    window.open('tel:4802499898'); 
 });
+
+//alert when email is sent
+$('.form-submit-btn').on('click', function() {
+    alert('e-mail sent'); 
+});

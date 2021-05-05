@@ -287,15 +287,9 @@ textarea {
     height: 5em;
 }
 
-.button {
-    padding-left: 90px;
-}
-
-button {
-    margin-left: .5em;
-    padding: 2px 5px;
-    background-color: #222;
-    color: #eee;
+.form-submit-btn {
+    width: 100px;
+    margin-left: 100px;
 }
 
 
@@ -335,6 +329,7 @@ button {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    text-align: left;
 }
 
 .item-a {
@@ -566,6 +561,11 @@ nav i {
     input, 
     textarea {
         width: 200px;
+    }
+    
+    .form-submit-btn {
+        width: 100px;
+        margin-left: 0;
     }
     
     

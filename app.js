@@ -55,6 +55,8 @@ app.post('/', function(req, res) {
     
     //send email
     sendMail(email);
+    
+    res.sendFile(__dirname + "/");
 });
 
 app.listen(port, function() {
